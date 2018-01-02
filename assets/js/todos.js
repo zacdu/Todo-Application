@@ -19,6 +19,10 @@ $("input[type='text']").keypress(function (event) {
         var todoText = $(this).val();
         $(this).val("");
         //Create a new li and add to ul
-        $("ul").append("<li class='unselectable'><span>X</span> " + todoText + "</li>");
+        $("ul").append("<li class='unselectable'><span><i class='fa fa-trash'></i></span> " + todoText + "</li>");
     }
+})
+
+$(".fa-pencil-square-o").on("click", function(){
+    $("input[type='text']").fadeToggle();
 })
