@@ -6,6 +6,7 @@ $("li").on("click", function(){
 })
 
 // Click on 'X' to delete Todo
-$("span").on("click", function(){
+$("span").on("click", function(event){
+    event.stopPropagation();
     alert("clicked on a span")
 })
