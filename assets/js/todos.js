@@ -7,6 +7,8 @@ $("li").on("click", function(){
 
 // Click on 'X' to delete Todo
 $("span").on("click", function(event){
+    $(this).parent().fadeOut(300, function(){
+        $(this).parent.remove();
+    });
     event.stopPropagation();
-    alert("clicked on a span")
 })
