@@ -4,3 +4,8 @@ $("li").on("click", function(){
     console.log("Yay!")
     console.log("Github test Log")
 })
+
+// Click on 'X' to delete Todo
+$("span").on("click", function(){
+    alert("clicked on a span")
+})
