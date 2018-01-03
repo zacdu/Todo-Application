@@ -1,16 +1,32 @@
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
 body{
     font-family: Roboto;
-background: linear-gradient(159deg, #2BC0E4, #EAECC6);
-background-size: 400% 400%;
+    background: linear-gradient(90deg, #d76d77, #ffaf7b, #3a1c71);
+    background-size: 600% 600%;
 
--webkit-animation: AnimationName 8s ease infinite;
--moz-animation: AnimationName 8s ease infinite;
-animation: AnimationName 8s ease infinite;
+    -webkit-animation: AnimationName 40s ease infinite;
+    -moz-animation: AnimationName 40s ease infinite;
+    animation: AnimationName 40s ease infinite;
 
 }
 
 h1{
-    background: #2980b9;
+    background: #D76D77;
     color: white;
     margin: 0;
     padding: 10px 20px;
@@ -54,28 +70,12 @@ span{
     opacity: 0;
 }
 
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-@keyframes AnimationName { 
-    0%{background-position:0% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:0% 50%}
-}
-
-.fa-pencil-square-o{
+.fa-paint-brush{
      float: right;
 }
 
 li:hover{
-    color: #2980b9;
+    color: #FFAF7B;
 }
 
 li:nth-child(2n){
@@ -89,7 +89,7 @@ li:hover span{
 
 input:focus{
     background: white;
-    border: 3px solid #2980b9;
+    border: 3px solid #D76D77;
     outline: none;
 }
 

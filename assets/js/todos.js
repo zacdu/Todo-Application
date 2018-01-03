@@ -23,6 +23,6 @@ $("input[type='text']").keypress(function (event) {
     }
 })
 
-$(".fa-pencil-square-o").on("click", function(){
-    $("input[type='text']").fadeToggle();
+$(".fa-paint-brush").on("click", function(){
+    
 })
